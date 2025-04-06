@@ -1,0 +1,5 @@
+x = ADD(5, 3);
+y = SUB(10, 2);
+z = MUL(4, 5);
+w = DIV(20, 4);
+result = MSQ(2 , 4);
