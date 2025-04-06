@@ -167,13 +167,13 @@ This will:
 ## Output Explanation
 In the above output we can see the state of Registers and Memory after the execution is complete.
 - The Registers part only has data in the first position i.e. the first Register , and every other register is empty.
-  This is because the register only contains the output of current execution and hence after the completion of execution R1 would contain the output of last instruction. In this case that instruction is the MSQ(2 , 4) instruction and hence the register contains the output  (2*2 + 4*4)/2 which is 10.
+  This is because the register only contains the output of current execution and hence after the completion of execution R1 would contain the output of last instruction. In this case that instruction is the MSQ(2 , 4) instruction and hence the register contains the output  (2x2 + 4x4)/2 which is 10.
 - The Memory part has the values of the variables in the order that they were declared.
   So in this case ,
-  x = 8
-  y = 8
-  z = 20
-  w = 5
+  x = 8,
+  y = 8,
+  z = 20,
+  w = 5,
   result = 10
 
 ---
